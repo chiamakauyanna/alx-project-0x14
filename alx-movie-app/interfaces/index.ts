@@ -16,21 +16,21 @@ export interface MovieProps {
     title: string;
 }
 
-interface PrimaryImage {
+interface PosterPath {
     url: string;
 }
 
-interface TitleText {
+interface Title {
     text: string;
 }
 
-interface ReleaseYear {
+interface ReleaseDate {
     year: string;
 }
 
 export interface MoviesProps {
     id: string;
-    primaryImage: PrimaryImage;
-    titleText: TitleText;
-    releaseYear: ReleaseYear;
+    poster_path: string;
+    title: string;
+    release_date: string;
 }
